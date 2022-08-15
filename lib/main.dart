@@ -16,12 +16,6 @@ void main() async {
   WidgetsFlutterBinding?.ensureInitialized();
 
   Firestore.initialize(projectId);
-
-//  await  DesktopWindow.getFullScreen();
-  // await Supabase.initialize(
-  //     url: 'https://evbkkpnqfnuqfphsartp.supabase.co',
-  //     anonKey: 'public-anon-key');
-
   runApp(const MyApp());
 }
 

@@ -87,6 +87,7 @@ class _HomeState extends State<Home> {
                 ],
               ),
             ),
+            Container(height: double.infinity,width: width*0.90,)
           ],
         ),
       ),
